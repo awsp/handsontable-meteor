@@ -1,15 +1,15 @@
 ## Meteor Handsontable
-------------------------------
+---
 This package uses the latest version of Handsontable (currently @version 0.12.4) in MeteorJS.
 
 
 ## Installation
-------------------------------
+---
 meteor add awsp:handsontable
 
 
 ## Important Notes
-------------------------------
+---
 This package contains the latest Handsontable (ver 0.12.4).
 The new version of Handsontable no longer necessary requires jQuery to work.
 In order to introduce the latest Handsontable to Meteor,
@@ -49,16 +49,17 @@ $("#hot3").handsontable({
 
 
 ## ToDo
-------------------------------
+---
 - Add Tinytest
 
 
 
 ## Github / Bug Reports
-------------------------------
+---
+https://github.com/awsp/handsontable-meteor
 
 
 
 ## License
-------------------------------
+---
 MIT License
