@@ -2,7 +2,7 @@
 This package uses the latest version of Handsontable (currently @version 0.12.4) in MeteorJS.
 
 
-## Installation
+## Installation (Not available until end of January, 2015)
 ```
 meteor add awsp:handsontable
 ```
