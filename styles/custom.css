@@ -1,0 +1,8 @@
+.handsontableEditor.handsontable.listbox {
+    z-index: 1000;
+}
+.handsontableInput { box-sizing: content-box !important; -webkit-box-sizing: content-box !important; }
+.handsontable .handsontable table {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}

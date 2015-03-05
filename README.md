@@ -1,15 +1,15 @@
-## Meteor Handsontable (@version 0.3.1)
-This package uses the latest version of Handsontable (currently @version 0.12.4) in MeteorJS.
+## Meteor Handsontable (@version 0.4.0)
+This package uses the latest version of Handsontable (currently @version 0.12.6) in MeteorJS.
 
 
-## Installation (Not available until end of January, 2015)
+## Installation (Not Yet Available at AtmosphereJS)
 ```
-meteor add awsp:handsontable
+~~meteor add awsp:handsontable~~
 ```
 
 
 ## Important Notes
-This package contains the latest yet lightly modified version of Handsontable (ver 0.12.4).
+This package contains the latest yet slightly modified version of Handsontable (ver 0.12.6).
 The new version of Handsontable no longer necessary requires jQuery to work.
 In order to introduce the latest Handsontable to Meteor,
 a minimum of modification was made to Handsontable in this package to fix some of the conflicts when used in Meteor.
