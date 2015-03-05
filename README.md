@@ -1,4 +1,4 @@
-## Meteor Handsontable (@version 0.4.0)
+## Meteor Handsontable (@version 0.4.1)
 This package uses the latest version of Handsontable (currently @version 0.12.6) in MeteorJS.
 
 
