@@ -1,0 +1,60 @@
+{
+  "name": "handsontable",
+  "description": "Spreadsheet-like data grid editor that provides copy/paste functionality compatible with Excel/Google Docs",
+  "version": "0.12.6",
+  "main": [
+    "./dist/handsontable.full.js",
+    "./dist/handsontable.full.css"
+  ],
+  "homepage": "http://handsontable.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/handsontable/handsontable.git"
+  },
+  "authors": [
+    "Handsoncode",
+    "Handsoncode <hello@handsontable.com>"
+  ],
+  "keywords": [
+    "data",
+    "grid",
+    "table",
+    "editor",
+    "grid-editor",
+    "data-grid",
+    "data-table",
+    "spreadsheet",
+    "excel",
+    "tabular-data",
+    "edit-cell",
+    "editable-table",
+    "data-spreadsheet"
+  ],
+  "ignore": [
+    "**/.*",
+    "components",
+    "demo",
+    "lib",
+    "plugins",
+    "node_modules",
+    "src",
+    "test"
+  ],
+  "dependencies": {
+    "zeroclipboard": ">=2.1.6",
+    "pikaday": "1.3.0",
+    "moment": "2.9.0"
+  },
+  "devDependencies": {
+    "chroma-js": "~0.5.6"
+  },
+  "_release": "0.12.6",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.12.6",
+    "commit": "3ec8d8c68247d04bc1644011d5cdfa6a96a55e5c"
+  },
+  "_source": "git://github.com/handsontable/handsontable.git",
+  "_target": "~0.12.6",
+  "_originalSource": "handsontable"
+}

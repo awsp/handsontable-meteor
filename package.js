@@ -11,6 +11,8 @@ Package.onUse(function(api) {
   api.addFiles('awsp:handsontable.js');
   api.use('jquery', 'client');
   api.addFiles([
+    'bower_components/pikaday/css/pikaday.css',
+    'bower_components/pikaday/pikaday.js',
     'lib/handsontable.meteor.0.12.6.css',
     'lib/handsontable.meteor.0.12.6.js',
     'styles/custom.css'
