@@ -2,10 +2,16 @@
 This package uses the latest version of Handsontable (currently @version 0.12.6) in MeteorJS.
 
 
-## Installation (Not Yet Available at AtmosphereJS)
+## Installation
+
+- AtmosphereJS (Not Yet Available)
 ```
-~~meteor add awsp:handsontable~~
+meteor add awsp:handsontable
 ```
+
+- Manual Installation
+    - Clone this repository, add to the directory `packages` (Create one at your app root if you haven't done so. )
+    - Run `meteor add awsp:handsontable`
 
 
 ## Important Notes
