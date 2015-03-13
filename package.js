@@ -1,6 +1,6 @@
 Package.describe({
   name: 'awsp:handsontable',
-  version: '0.4.2',
+  version: '0.4.3',
   summary: 'Quote from origin: Handsontable is a minimalist Excel-like data grid editor for HTML & JavaScript',
   git: 'https://github.com/awsp/handsontable-meteor',
   documentation: 'README.md'
@@ -10,11 +10,11 @@ Package.onUse(function(api) {
   api.versionsFrom('1.0');
   api.addFiles('awsp:handsontable.js');
   api.use('jquery', 'client');
-  api.use('mrt:moment@1.7.0');
 
   api.addFiles([
     'bower_components/pikaday/css/pikaday.css',
     'bower_components/pikaday/pikaday.js',
+    'bower_components/moment/min/moment.min.js',
     'lib/handsontable.meteor.0.13.0.css',
     'lib/handsontable.meteor.0.13.0.js',
     'styles/custom.css'
