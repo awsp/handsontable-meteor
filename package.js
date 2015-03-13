@@ -10,7 +10,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.0');
   api.addFiles('awsp:handsontable.js');
   api.use('jquery', 'client');
-  api.use('mrt:moment');
+  api.use('mrt:moment@1.7.0');
 
   api.addFiles([
     'bower_components/pikaday/css/pikaday.css',
