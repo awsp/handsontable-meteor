@@ -6,3 +6,10 @@
     box-shadow: none;
     -webkit-box-shadow: none;
 }
+.handsontable.handsontableEditor.listbox {
+    margin-top: -5px;
+    box-shadow: 0 3px 18px 1px #aaa;
+}
+.handsontable .autocompleteEditor.handsontable.htMacScroll {
+    padding-right: 0;
+}

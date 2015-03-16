@@ -1,6 +1,6 @@
 Package.describe({
   name: 'awsp:handsontable',
-  version: '0.4.3',
+  version: '0.4.4',
   summary: 'Quote from origin: Handsontable is a minimalist Excel-like data grid editor for HTML & JavaScript',
   git: 'https://github.com/awsp/handsontable-meteor',
   documentation: 'README.md'
