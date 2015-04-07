@@ -14,3 +14,16 @@
     padding-right: 0;
     background: #666;
 }
+.ht_clone_left .wtHolder { overflow: hidden; }
+.handsontable .handsontable:not(.ht_master) table {
+    -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.15);
+}
+
+.ht_clone_corner.handsontable .wtSpreader .htCore {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid #ccc;
+}
