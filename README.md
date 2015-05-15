@@ -1,4 +1,4 @@
-## Meteor Handsontable (@version 0.5.1)
+## Meteor Handsontable (@version 0.5.2)
 This package uses the latest version of Handsontable (currently @version 0.14.1) in MeteorJS.
 
 
@@ -53,9 +53,11 @@ $("#hot3").handsontable({
 ```
 
 
-## ToDo
-- Add Tinytest
+## Release Notes
+* Version 0.5.2 - Remove table edge shadow as this is hurting performance especially dealing with large data. 
+                  Until Handsontable version 0.15.x is stable, shall remove related styles. 
 
+* Version 0.5.1 - Bump Handsontable to version 0.14.1. Minor tweaks of UI. 
 
 
 ## Github / Bug Reports
