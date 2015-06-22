@@ -1,5 +1,5 @@
-## Meteor Handsontable (@version 0.5.2)
-This package uses the latest version of Handsontable (currently @version 0.14.1) in MeteorJS.
+## Meteor Handsontable (@version 0.6.0)
+This package uses the latest version of Handsontable (currently @version 0.15.0) in MeteorJS.
 
 
 ## Installation
@@ -54,6 +54,7 @@ $("#hot3").handsontable({
 
 
 ## Release Notes
+* Version 0.6.0 - Bump Handsontable to version 0.15.0.
 * Version 0.5.2 - Remove table edge shadow as this is hurting performance especially dealing with large data. 
                   Until Handsontable version 0.15.x is stable, shall remove related styles. 
 

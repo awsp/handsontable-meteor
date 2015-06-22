@@ -2,38 +2,19 @@
     z-index: 1000;
 }
 .handsontableInput { box-sizing: content-box !important; -webkit-box-sizing: content-box !important; }
-.handsontable .handsontable table {
-    box-shadow: none;
-    -webkit-box-shadow: none;
-}
 .handsontable.handsontableEditor.listbox {
     margin-top: -5px;
     box-shadow: 0 3px 18px 1px #aaa;
+    border: 1px solid #bfbfbf;
+}
+.handsontable.handsontableEditor.listbox table {
+    border: 0;
 }
 .handsontable .autocompleteEditor.handsontable.htMacScroll {
     padding-right: 0;
-    background: #666;
+    background: #fff;
 }
 .ht_clone_left .wtHolder { overflow: hidden; }
-
-.handsontable .handsontable.ht_clone_left table {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-
-.handsontable .handsontable.ht_clone_top table {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-
-.ht_clone_corner.handsontable .wtSpreader .htCore {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    border-bottom: 1px solid #ccc;
-}
 
 .rowHeader, .colHeader {
     cursor: default;
