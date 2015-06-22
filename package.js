@@ -13,8 +13,6 @@ Package.onUse(function(api) {
 
   api.addFiles([
     'bower_components/pikaday/css/pikaday.css',
-    'bower_components/pikaday/pikaday.js',
-    'bower_components/moment/min/moment.min.js',
     'lib/handsontable.meteor.0.15.0.css',
     'lib/handsontable.meteor.0.15.0.js',
     'styles/custom.css'

@@ -54,7 +54,8 @@ $("#hot3").handsontable({
 
 
 ## Release Notes
-* Version 0.6.0 - Bump Handsontable to version 0.15.0.
+* Version 0.6.0 - Bump Handsontable to version 0.15.0. Removed shadow fixes as 0.15.0 no longer have that. Minor UI tweaked. 
+                  Removed unnecessary libraries as Handsontable had already included it.  
 * Version 0.5.2 - Remove table edge shadow as this is hurting performance especially dealing with large data. 
                   Until Handsontable version 0.15.x is stable, shall remove related styles. 
 
