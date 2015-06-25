@@ -1,5 +1,5 @@
-## Meteor Handsontable (@version 0.6.0)
-This package uses the latest version of Handsontable (currently @version 0.15.0) in MeteorJS.
+## Meteor Handsontable (@version 0.6.1)
+This package uses the latest version of Handsontable (currently @version 0.15.1) in MeteorJS.
 
 
 ## Installation
@@ -15,7 +15,7 @@ meteor add awsp:handsontable
 
 
 ## Important Notes
-This package contains the latest yet slightly modified version of Handsontable (ver 0.15.0). Some of the UI has also been modified. 
+This package contains the latest yet slightly modified version of Handsontable (ver 0.15.1). Some of the UI has also been modified. 
 The new version of Handsontable no longer necessary requires jQuery to work.
 In order to introduce the latest Handsontable to Meteor,
 a minimum of modification was made to Handsontable in this package to fix some of the conflicts when used in Meteor.
@@ -54,8 +54,9 @@ $("#hot3").handsontable({
 
 
 ## Release Notes
+* Version 0.6.1 - Update to the latest version of Handsontable (0.15.1)
 * Version 0.6.0 - Bump Handsontable to version 0.15.0. Removed shadow fixes as 0.15.0 no longer have that. Minor UI tweaked. 
-                  Removed unnecessary libraries as Handsontable had already included it.  
+                  Removed unnecessary libraries as Handsontable had already included them.  
 * Version 0.5.2 - Remove table edge shadow as this is hurting performance especially dealing with large data. 
                   Until Handsontable version 0.15.x is stable, shall remove related styles. 
 
