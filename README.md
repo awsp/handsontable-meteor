@@ -1,4 +1,4 @@
-## Meteor Handsontable (@version 0.6.1)
+## Meteor Handsontable (@version 0.7.0)
 This package uses the latest version of Handsontable (currently @version 0.15.1) in MeteorJS.
 
 
@@ -52,8 +52,32 @@ $("#hot3").handsontable({
 });
 ```
 
+## Formulas Supports
+Starting from version 0.7.0, you could also enable formulas in Handsontable.
+This package uses the default styling from Handsontable and RuleJS.
+However, you can always customize to your own by changing the following 2 classes in CSS.
+ 
+* `td.formulas`  
+* `td.formula-error`  
+
+```js
+$("#hot3").handsontable({
+    formulas: true, // Add this line to enable formulas support
+    data: data,
+    minSpareRows: 1,
+    colHeaders: true,
+    contextMenu: true
+});
+```
+
+For more details on usage and supported formulas, 
+- Handsotnable Formulas Page: [http://handsontable.github.io/handsontable-ruleJS/](http://handsontable.github.io/handsontable-ruleJS/)
+- Supported Formulas: [http://handsontable.github.io/ruleJS/](http://handsontable.github.io/ruleJS/)
+
+
 
 ## Release Notes
+* Version 0.7.0 - Add formulas support. Add Handsontable license. Change package summary for Handsontable. 
 * Version 0.6.1 - Update to the latest version of Handsontable (0.15.1)
 * Version 0.6.0 - Bump Handsontable to version 0.15.0. Removed shadow fixes as 0.15.0 no longer have that. Minor UI tweaked. 
                   Removed unnecessary libraries as Handsontable had already included them.  
