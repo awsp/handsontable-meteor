@@ -1,7 +1,7 @@
 Package.describe({
   name: 'awsp:handsontable',
   version: '0.7.0',
-  summary: 'Handsontable is a data grid component with an Excel-like appearance. Built in JavaScript with optional formulas support. ',
+  summary: 'Handsontable is a data grid component with an Excel-like appearance. Built in JavaScript.',
   git: 'https://github.com/awsp/handsontable-meteor',
   documentation: 'README.md'
 });
