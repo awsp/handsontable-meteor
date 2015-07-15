@@ -31,7 +31,7 @@ var data = [
     ['2011', 4, 2517, 4822, 552, 6127],
     ['2012', 2, 2422, 5399, 776, 4151]
 ];
-var container = hot, document.getElementById('hot');
+var container = document.getElementById('hot'), hot;
 
 
 hot = new Handsontable(container, {
