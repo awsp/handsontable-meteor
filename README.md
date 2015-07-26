@@ -1,5 +1,5 @@
-## Meteor Handsontable (@version 0.8.0)
-This package uses the latest version of Handsontable (currently @version 0.16.0) in MeteorJS.
+## Meteor Handsontable (@version 0.8.1)
+This package uses the latest version of Handsontable (currently @version 0.16.1) in MeteorJS.
 
 
 ## Installation
@@ -15,7 +15,7 @@ meteor add awsp:handsontable
 
 
 ## Important Notes
-This package contains the latest yet slightly modified version of Handsontable (ver 0.16.0). Some of the UI has also been modified. 
+This package contains the latest yet slightly modified version of Handsontable (ver 0.16.1). Minor change has been made to the UI as well.     
 The new version of Handsontable no longer necessary requires jQuery to work.
 In order to introduce the latest Handsontable to Meteor,
 a minimum of modification was made to Handsontable in this package to fix some of the conflicts when used in Meteor.
@@ -71,12 +71,13 @@ $("#hot3").handsontable({
 ```
 
 For more details on usage and supported formulas, 
-- Handsotnable RuleJS Page: [http://handsontable.github.io/handsontable-ruleJS/](http://handsontable.github.io/handsontable-ruleJS/)
+- Handsontable RuleJS Page: [http://handsontable.github.io/handsontable-ruleJS/](http://handsontable.github.io/handsontable-ruleJS/)
 - Supported Formulas: [http://handsontable.github.io/ruleJS/](http://handsontable.github.io/ruleJS/)
 
 
 
 ## Release Notes
+* Version 0.8.1 - Update Handsontable to version 0.16.1.
 * Version 0.8.0 - Update Handsontable to version 0.16.0. 
 * Version 0.7.0 - Add formulas support. Add Handsontable license. Change package summary for Handsontable. 
 * Version 0.6.1 - Update to the latest version of Handsontable (0.15.1)
@@ -88,12 +89,12 @@ For more details on usage and supported formulas,
 * Version 0.5.1 - Update Handsontable to version 0.14.1. Minor tweaks of UI. 
 
 
-## Github / Bug Reports
+## GitHub / Bug Reports
 https://github.com/awsp/handsontable-meteor
 
 
 ## Versions Tracking
-* Handsontable - 0.16.0  [Release Notes](https://github.com/handsontable/handsontable/releases)
+* Handsontable - 0.16.1  [Release Notes](https://github.com/handsontable/handsontable/releases)
 * ruleJS - 0.0.5
 
 
