@@ -1,5 +1,5 @@
-## Meteor Handsontable (@version 0.8.0)
-This package uses the latest version of Handsontable (currently @version 0.16.0) in MeteorJS.
+## Meteor Handsontable (@version 0.8.1)
+This package uses the latest version of Handsontable (currently @version 0.16.1) in MeteorJS.
 
 
 ## Installation
@@ -15,7 +15,7 @@ meteor add awsp:handsontable
 
 
 ## Important Notes
-This package contains the latest yet slightly modified version of Handsontable (ver 0.16.0). Some of the UI has also been modified. 
+This package contains the latest yet slightly modified version of Handsontable (ver 0.16.1). Some of the UI has also been modified. 
 The new version of Handsontable no longer necessary requires jQuery to work.
 In order to introduce the latest Handsontable to Meteor,
 a minimum of modification was made to Handsontable in this package to fix some of the conflicts when used in Meteor.
@@ -77,6 +77,7 @@ For more details on usage and supported formulas,
 
 
 ## Release Notes
+* Version 0.8.1 - Update Handsontable to version 0.16.1.
 * Version 0.8.0 - Update Handsontable to version 0.16.0. 
 * Version 0.7.0 - Add formulas support. Add Handsontable license. Change package summary for Handsontable. 
 * Version 0.6.1 - Update to the latest version of Handsontable (0.15.1)
@@ -93,7 +94,7 @@ https://github.com/awsp/handsontable-meteor
 
 
 ## Versions Tracking
-* Handsontable - 0.16.0  [Release Notes](https://github.com/handsontable/handsontable/releases)
+* Handsontable - 0.16.1  [Release Notes](https://github.com/handsontable/handsontable/releases)
 * ruleJS - 0.0.5
 
 
