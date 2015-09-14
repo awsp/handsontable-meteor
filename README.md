@@ -77,8 +77,8 @@ For more details on usage and supported formulas,
 
 
 ## Release Notes
-* Version 0.10.0 - Update Handsontable version to 0.18.0
-* Version 0.9.0 - Update Handsontable version to 0.17.0
+* Version 0.10.0 - Update Handsontable version to 0.18.0.
+* Version 0.9.0 - Update Handsontable version to 0.17.0.
 * Version 0.8.1 - Update Handsontable version to 0.16.1.
 * Version 0.8.0 - Update Handsontable version to 0.16.0. 
 * Version 0.7.0 - Add formulas support. Add Handsontable license. Change package summary for Handsontable. 
