@@ -56,7 +56,7 @@ $("#hot3").handsontable({
 Starting from package version 0.7.0, you could also enable formulas in Handsontable.
 This package uses the default styling from Handsontable and RuleJS.
 However, you can always customize to your own by changing the following 2 classes in CSS.
- 
+
 * `td.formulas`  
 * `td.formula-error`  
 
@@ -70,7 +70,7 @@ $("#hot3").handsontable({
 });
 ```
 
-For more details on usage and supported formulas, 
+For more details on usage and supported formulas,
 - Handsontable RuleJS Page: [http://handsontable.github.io/handsontable-ruleJS/](http://handsontable.github.io/handsontable-ruleJS/)
 - Supported Formulas: [http://handsontable.github.io/ruleJS/](http://handsontable.github.io/ruleJS/)
 
@@ -82,15 +82,15 @@ For more details on usage and supported formulas,
 * Version 0.10.0 - Update Handsontable version to 0.18.0.
 * Version 0.9.0 - Update Handsontable version to 0.17.0.
 * Version 0.8.1 - Update Handsontable version to 0.16.1.
-* Version 0.8.0 - Update Handsontable version to 0.16.0. 
-* Version 0.7.0 - Add formulas support. Add Handsontable license. Change package summary for Handsontable. 
+* Version 0.8.0 - Update Handsontable version to 0.16.0.
+* Version 0.7.0 - Add formulas support. Add Handsontable license. Change package summary for Handsontable.
 * Version 0.6.1 - Update to the latest version of Handsontable (0.15.1)
-* Version 0.6.0 - Bump Handsontable to version 0.15.0. Removed shadow fixes as 0.15.0 no longer have that. Minor UI tweaked. 
+* Version 0.6.0 - Bump Handsontable to version 0.15.0. Removed shadow fixes as 0.15.0 no longer have that. Minor UI tweaked.
                   Removed unnecessary libraries as Handsontable had already included them.  
-* Version 0.5.2 - Remove table edge shadow as this is hurting performance especially dealing with large data. 
-                  Until Handsontable version 0.15.x is stable, shall remove related styles. 
+* Version 0.5.2 - Remove table edge shadow as this is hurting performance especially dealing with large data.
+                  Until Handsontable version 0.15.x is stable, shall remove related styles.
 
-* Version 0.5.1 - Update Handsontable to version 0.14.1. Minor tweaks of UI. 
+* Version 0.5.1 - Update Handsontable to version 0.14.1. Minor tweaks of UI.
 
 
 ## GitHub / Bug Reports
@@ -98,7 +98,7 @@ https://github.com/awsp/handsontable-meteor
 
 
 ## Versions Tracking
-* Handsontable - 0.19.0  [Release Notes](https://github.com/handsontable/handsontable/releases)
+* Handsontable - 0.20.0  [Release Notes](https://github.com/handsontable/handsontable/releases)
 * ruleJS - 0.0.5
 
 
