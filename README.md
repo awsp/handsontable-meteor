@@ -15,7 +15,7 @@ meteor add awsp:handsontable
 
 
 ## Important Notes
-This package contains the latest yet slightly modified version of Handsontable (version 0.20.0). Minor change has been made to the UI as well.     
+This package contains the latest yet slightly modified version of Handsontable (version 0.20.1). Minor change has been made to the UI as well.     
 The new version of Handsontable no longer necessary requires jQuery to work.
 In order to introduce the latest Handsontable to Meteor,
 a minimum of modification was made to Handsontable in this package to fix some of the conflicts when used in Meteor.
