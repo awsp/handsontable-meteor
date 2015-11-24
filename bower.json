@@ -21,6 +21,6 @@
     "tests"
   ],
   "dependencies": {
-    "handsontable": "~0.20.0"
+    "handsontable": "~0.20.1"
   }
 }

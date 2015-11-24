@@ -1,5 +1,5 @@
-# Meteor Handsontable (@version 0.12.0)
-This package uses the latest version of Handsontable (currently @version 0.20.0) in MeteorJS.
+# Meteor Handsontable (@version 0.12.1)
+This package uses the latest version of Handsontable (currently @version 0.20.1) in MeteorJS.
 
 
 ## Installation
@@ -77,6 +77,7 @@ For more details on usage and supported formulas,
 
 
 ## Release Notes
+* Version 0.12.1 - Update Handsontable version to 0.20.1.
 * Version 0.12.0 - Update Handsontable version to 0.20.0.
 * Version 0.11.0 - Update Handsontable version to 0.19.0.
 * Version 0.10.0 - Update Handsontable version to 0.18.0.
@@ -98,7 +99,7 @@ https://github.com/awsp/handsontable-meteor
 
 
 ## Versions Tracking
-* Handsontable - 0.20.0  [Release Notes](https://github.com/handsontable/handsontable/releases)
+* Handsontable - 0.20.1  [Release Notes](https://github.com/handsontable/handsontable/releases)
 * ruleJS - 0.0.5
 
 
