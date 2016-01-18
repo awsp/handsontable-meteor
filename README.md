@@ -76,7 +76,7 @@ For more details on usage and supported formulas,
 
 
 #### Notes about formula support.
-Formula supports does not work with autofilling with Handsontable 0.14+
+Formula support does not work with autofilling with Handsontable 0.14+.
 
 
 
