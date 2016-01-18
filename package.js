@@ -16,7 +16,7 @@ Package.onUse(function(api) {
     'lib/handsontable-ruleJS/src/handsontable.formula.css',
 
     'lib/rulejs/ruleJS.all.full.js',
-    'lib/handsontable.meteor.0.20.3.js',
+    'lib/handsontable.meteor.0.13.1.js',
     'lib/rulejs/handsontable.formula.js',
     'lib/handsontable-ruleJS/lib/highlight/styles/github.css',
     'lib/rulejs/highlight.pack.js',

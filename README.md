@@ -52,7 +52,7 @@ $("#hot3").handsontable({
 });
 ```
 
-## Formula Support
+## Formula Support (Updated Jan 17, 2016)
 Starting from package version 0.7.0, you could also enable formulas in Handsontable.
 This package uses the default styling from Handsontable and RuleJS.
 However, you can always customize to your own by changing the following 2 classes in CSS.
@@ -74,6 +74,9 @@ For more details on usage and supported formulas,
 - Handsontable RuleJS Page: [http://handsontable.github.io/handsontable-ruleJS/](http://handsontable.github.io/handsontable-ruleJS/)
 - Supported Formulas: [http://handsontable.github.io/ruleJS/](http://handsontable.github.io/ruleJS/)
 
+
+#### Notes about formula support.
+Formula supports does not work with autofilling with Handsontable 0.14+
 
 
 
