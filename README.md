@@ -79,7 +79,7 @@ Formula support does not work with autofilling with Handsontable 0.14+.
 
 
 ## Release Notes
-* Version 0.15 - Update Handsontable version to 0.23.0.
+* Version 0.15.0 - Update Handsontable version to 0.23.0.
 * Version 0.12.3 - Update Handsontable version to 0.20.3.
 * Version 0.12.2 - Update Handsontable version to 0.20.2.
 * Version 0.12.1 - Update Handsontable version to 0.20.1.
