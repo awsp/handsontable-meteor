@@ -1,5 +1,5 @@
-# Meteor Handsontable (@version 0.12.3)
-This package uses the latest version of Handsontable (currently @version 0.20.3) in MeteorJS.
+# Meteor Handsontable (@version 0.15.0)
+This package uses the latest version of Handsontable (currently @version 0.23.0) in MeteorJS.
 
 
 ## Installation
@@ -15,7 +15,7 @@ meteor add awsp:handsontable
 
 
 ## Important Notes
-This package contains the latest yet slightly modified version of Handsontable (version 0.20.3). Minor change has been made to the UI as well.
+This package contains the latest yet slightly modified version of Handsontable (version 0.23.0). Minor change has been made to the UI as well.
 The new version of Handsontable no longer necessary requires jQuery to work.
 In order to introduce the latest Handsontable to Meteor,
 a minimum of modification was made to Handsontable in this package to fix some of the conflicts when used in Meteor.
@@ -24,22 +24,20 @@ a minimum of modification was made to Handsontable in this package to fix some o
 The new way of initializing Handsontable is by following,
 
 ```js
-var data = [
-    ['', 'Maserati', 'Mazda', 'Mercedes', 'Mini', 'Mitsubishi'],
-    ['2009', 0, 2941, 4303, 354, 5814],
-    ['2010', 3, 2905, 2867, 412, 5284],
-    ['2011', 4, 2517, 4822, 552, 6127],
-    ['2012', 2, 2422, 5399, 776, 4151]
-];
-var container = document.getElementById('hot'), hot;
+  var data = function () {
+    return Handsontable.helper.createSpreadsheetData(100, 10);
+  };
 
+  var container = document.getElementById('example');
 
-hot = new Handsontable(container, {
-    data: data,
+  var hot = new Handsontable(container, {
+    data: data(),
+    minSpareCols: 1,
     minSpareRows: 1,
+    rowHeaders: true,
     colHeaders: true,
     contextMenu: true
-});
+  });
 ```
 
 It is also possible to do in the old jQuery way.
@@ -81,6 +79,7 @@ Formula support does not work with autofilling with Handsontable 0.14+.
 
 
 ## Release Notes
+* Version 0.15.0 - Update Handsontable version to 0.23.0.
 * Version 0.12.3 - Update Handsontable version to 0.20.3.
 * Version 0.12.2 - Update Handsontable version to 0.20.2.
 * Version 0.12.1 - Update Handsontable version to 0.20.1.
@@ -105,7 +104,7 @@ https://github.com/awsp/handsontable-meteor
 
 
 ## Versions Tracking
-* Handsontable - 0.20.3  [Release Notes](https://github.com/handsontable/handsontable/releases) [New license](http://handsontable.com/static/licenses/v1/open-source-license.pdf?_ga=1.992503.778804082.1429430347)
+* Handsontable - 0.23.0  [Release Notes](https://github.com/handsontable/handsontable/releases) [New license](http://handsontable.com/static/licenses/v1/open-source-license.pdf?_ga=1.992503.778804082.1429430347)
 * ruleJS - 0.0.5
 
 

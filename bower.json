@@ -1,7 +1,7 @@
 {
   "name": "awsp:handsontable",
   "main": "package.js",
-  "version": "0.12.3",
+  "version": "0.15.0",
   "homepage": "https://github.com/awsp/handsontable-meteor",
   "authors": [
     "awsp <anthonyspwu@gmail.com>"
@@ -21,6 +21,6 @@
     "tests"
   ],
   "dependencies": {
-    "handsontable": "~0.20.3"
+    "handsontable": "~0.23.0"
   }
 }
