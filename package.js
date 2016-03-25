@@ -1,6 +1,6 @@
 Package.describe({
   name: 'awsp:handsontable',
-  version: '0.15.0',
+  version: '0.16.1',
   summary: 'Handsontable is a data grid component with an Excel-like appearance. Built in JavaScript.',
   git: 'https://github.com/awsp/handsontable-meteor',
   documentation: 'README.md'
@@ -12,10 +12,10 @@ Package.onUse(function(api) {
 
   api.addFiles([
     'bower_components/pikaday/css/pikaday.css',
-    'lib/handsontable.meteor.0.23.0.css',
+    'lib/handsontable.meteor.0.24.1.css',
     'lib/handsontable-ruleJS/src/handsontable.formula.css',
     'lib/rulejs/ruleJS.all.full.js',
-    'lib/handsontable.meteor.0.23.0.js',
+    'lib/handsontable.meteor.0.24.1.js',
     'lib/rulejs/handsontable.formula.js',
     'lib/handsontable-ruleJS/lib/highlight/styles/github.css',
     'lib/rulejs/highlight.pack.js',
