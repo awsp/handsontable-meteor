@@ -1,5 +1,5 @@
-# Meteor Handsontable (@version 0.15.0)
-This package uses the latest version of Handsontable (currently @version 0.23.0) in MeteorJS.
+# Meteor Handsontable (@version 0.16.1)
+This package uses the latest version of Handsontable (currently @version 0.24.1) in MeteorJS.
 
 
 ## Installation
@@ -15,7 +15,7 @@ meteor add awsp:handsontable
 
 
 ## Important Notes
-This package contains the latest yet slightly modified version of Handsontable (version 0.23.0). Minor change has been made to the UI as well.
+This package contains the latest yet slightly modified version of Handsontable (version 0.24.1). Minor change has been made to the UI as well.
 The new version of Handsontable no longer necessary requires jQuery to work.
 In order to introduce the latest Handsontable to Meteor,
 a minimum of modification was made to Handsontable in this package to fix some of the conflicts when used in Meteor.
@@ -50,7 +50,7 @@ $("#hot3").handsontable({
 });
 ```
 
-## Formula Support (Updated Jan 17, 2016)
+## Known Issue - Formula Support (Updated Jan 17, 2016)
 Starting from package version 0.7.0, you could also enable formulas in Handsontable.
 This package uses the default styling from Handsontable and RuleJS.
 However, you can always customize to your own by changing the following 2 classes in CSS.
@@ -79,6 +79,7 @@ Formula support does not work with autofilling with Handsontable 0.14+.
 
 
 ## Release Notes
+* Version 0.16.1 - Update Handsontable version to 0.24.1.
 * Version 0.15.0 - Update Handsontable version to 0.23.0.
 * Version 0.12.3 - Update Handsontable version to 0.20.3.
 * Version 0.12.2 - Update Handsontable version to 0.20.2.
@@ -104,7 +105,7 @@ https://github.com/awsp/handsontable-meteor
 
 
 ## Versions Tracking
-* Handsontable - 0.23.0  [Release Notes](https://github.com/handsontable/handsontable/releases) [New license](http://handsontable.com/static/licenses/v1/open-source-license.pdf?_ga=1.992503.778804082.1429430347)
+* Handsontable - 0.24.1  [Release Notes](https://github.com/handsontable/handsontable/releases) [New license](http://handsontable.com/static/licenses/v1/open-source-license.pdf?_ga=1.992503.778804082.1429430347)
 * ruleJS - 0.0.5
 
 
